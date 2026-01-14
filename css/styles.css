@@ -1658,3 +1658,4 @@ body.menu-open .drawer-panel{
     height: 36px !important;
   }
 }
+body{ outline: 6px solid red !important; }
