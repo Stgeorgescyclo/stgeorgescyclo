@@ -1166,6 +1166,10 @@ body.menu-open .drawer-panel{
 .footer-sep{
   opacity: 0.6;
 }
+.footer-brand .brand-inline-logo{
+  height: 26px;
+  opacity: 0.85;
+}
 
 
 /* responsive */
