@@ -1052,6 +1052,7 @@ body.menu-open .drawer-panel{
   gap: 24px;
   padding-bottom: 18px;
   border-bottom: 1px solid rgba(15,23,42,0.08);
+  align-items: center;
 }
 
 /* ----- COLONNE GAUCHE ----- */
