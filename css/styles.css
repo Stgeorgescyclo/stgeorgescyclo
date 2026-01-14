@@ -58,27 +58,6 @@ img{ max-width:100%; display:block; }
 .brand-name{ font-weight:950;font-size: 15px;line-height: 1.1; letter-spacing:-0.03em; }
 .brand-tagline{ font-size:12px; opacity: 0.9; color:var(--muted); font-weight:650; }
 
-
-
-.brand-ring{
-  position:absolute;
-  inset:3px;
-  border-radius:13px;
-  border:1px solid rgba(255,255,255,0.60);
-  opacity:0.85;
-}
-
-.brand-monogram{
-  position:relative;
-  font-weight:950;
-  letter-spacing:-0.06em;
-  font-size:15px;
-  letter-spacing: -0.08em;
-  color:#fff;
-  text-shadow: 0 10px 25px rgba(0,0,0,0.25);
-}
-
-
 .nav{ display:flex; align-items:center; gap:6px; }
 
 .nav-link{
@@ -100,8 +79,8 @@ img{ max-width:100%; display:block; }
   display:flex;
   align-items:center;
   justify-content:center;
-  width:44px;
-  height:44px;
+  width:60px;
+  height:50px;
   border-radius:14px;
   background:#fff;
   box-shadow: var(--shadow-soft);
