@@ -1,0 +1,266 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Actu du club — Les Léopards Cyclotouristes</title>
+  <meta name="description" content="Toute l’actualité des Léopards Cyclotouristes : sorties, vie du club, évènements." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="/assets/css/styles.css" />
+</head>
+
+<body>
+  <!-- HEADER (identique à l'accueil) -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="/" aria-label="Accueil - Les Léopards Cyclotouristes">
+        <span class="brand-mark" aria-hidden="true">
+          <span class="brand-ring"></span>
+          <span class="brand-monogram">LC</span>
+        </span>
+        <span class="brand-text">
+          <span class="brand-name">Les Léopards Cyclotouristes</span>
+          <span class="brand-tagline">Cyclo & VTT • Convivialité • Toute l’année</span>
+        </span>
+      </a>
+
+      <nav class="nav">
+        <a class="nav-link" href="/">Accueil</a>
+        <a class="nav-link" href="/presentation/">Présentation</a>
+        <a class="nav-link is-active" href="/actus/">Actu</a>
+        <a class="nav-link" href="/evenements/">Évènements</a>
+        <a class="nav-link" href="/contact/">Contact</a>
+        <a class="nav-cta" href="/rejoindre/">Rejoindre le club</a>
+      </nav>
+
+      <button class="burger" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="drawer">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+
+    <!-- Drawer mobile (identique à l'accueil) -->
+    <div id="drawer" class="drawer" aria-hidden="true">
+      <div class="drawer-backdrop" data-close></div>
+
+      <aside class="drawer-panel" role="dialog" aria-modal="true" aria-label="Menu">
+        <div class="drawer-head">
+          <a class="drawer-brand" href="/">
+            <span class="brand-mark" aria-hidden="true">
+              <span class="brand-ring"></span>
+              <span class="brand-monogram">LC</span>
+            </span>
+            <span class="drawer-brand-text">
+              <span class="drawer-brand-name">Les Léopards</span>
+              <span class="drawer-brand-sub">Cyclo & VTT</span>
+            </span>
+          </a>
+
+          <button class="drawer-close" aria-label="Fermer le menu" data-close>✕</button>
+        </div>
+
+        <nav class="drawer-nav">
+          <a class="drawer-link" href="/">Accueil</a>
+          <a class="drawer-link is-active" href="/presentation/">Présentation</a>
+          <a class="drawer-link" href="/actus/">Actu</a>
+          <a class="drawer-link" href="/evenements/">Évènements</a>
+          <a class="drawer-link" href="/contact/">Contact</a>
+        </nav>
+
+        <div class="drawer-cta">
+          <a class="btn btn-primary btn-wide" href="/rejoindre/">Rejoindre le club</a>
+          <a class="btn btn-ghost btn-wide" href="/evenements/">Voir les évènements</a>
+        </div>
+
+        <div class="drawer-foot">
+          <span class="drawer-pill">Sorties hebdo</span>
+          <span class="drawer-pill">Groupes par niveau</span>
+          <span class="drawer-pill">Essai possible</span>
+        </div>
+      </aside>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- HERO PAGE -->
+    <section class="page-hero">
+      <div class="container page-hero-grid">
+        <div>
+          <p class="kicker">Actualité</p>
+          <h1>La vie du club</h1>
+          <p class="lead">
+            Sorties, infos, évènements : tout ce qui fait vivre Les Léopards.
+          </p>
+        </div>
+
+        <div class="page-hero-card">
+          <p class="page-hero-card-title">À retenir</p>
+          <div class="mini-list">
+            <div class="mini-row">
+              <span class="mini-dot"></span>
+              <div>
+                <p class="mini-title">Sorties régulières</p>
+                <p class="mini-text">Route & VTT</p>
+              </div>
+            </div>
+            <div class="mini-row">
+              <span class="mini-dot"></span>
+              <div>
+                <p class="mini-title">Infos club</p>
+                <p class="mini-text">Vie associative</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ACTU À LA UNE -->
+    <section class="section section-soft">
+      <div class="container">
+        <article class="news-feature">
+          <a class="news-feature-link" href="/actus/actu-1.html">
+            <img src="/assets/img/actus/actu-1.jpg" alt="" class="news-feature-cover">
+            <div class="news-feature-overlay"></div>
+
+            <div class="news-feature-content">
+              <div class="news-meta-row">
+                <span class="news-badge">À la une</span>
+                <time class="news-date">10 janvier 2026</time>
+              </div>
+              <h2 class="news-feature-title">Reprise des sorties</h2>
+              <p class="news-feature-excerpt">
+                On repart sur un rythme régulier avec plusieurs groupes pour rouler ensemble.
+              </p>
+              <span class="news-read">Lire l’article →</span>
+            </div>
+          </a>
+        </article>
+      </div>
+    </section>
+
+    <!-- LISTE DES ACTUS -->
+    <section class="section">
+      <div class="container">
+        <div class="news-grid">
+
+          <article class="news-card">
+            <img src="/assets/img/actus/actu-2.jpg" alt="">
+            <div class="news-body">
+              <p class="news-meta">6 janvier 2026</p>
+              <h3>Galette des rois</h3>
+              <p class="news-excerpt">Moment convivial après la sortie du dimanche.</p>
+              <a href="/actus/actu-2.html" class="news-link">Lire →</a>
+            </div>
+          </article>
+
+          <article class="news-card">
+            <img src="/assets/img/actus/actu-3.jpg" alt="">
+            <div class="news-body">
+              <p class="news-meta">2 janvier 2026</p>
+              <h3>Nouveaux parcours</h3>
+              <p class="news-excerpt">Quelques boucles ajoutées pour varier les plaisirs.</p>
+              <a href="/actus/actu-3.html" class="news-link">Lire →</a>
+            </div>
+          </article>
+
+          <article class="news-card">
+            <img src="/assets/img/actus/actu-4.jpg" alt="">
+            <div class="news-body">
+              <p class="news-meta">28 décembre 2025</p>
+              <h3>Sortie hivernale</h3>
+              <p class="news-excerpt">Malgré le froid, le groupe était au rendez-vous.</p>
+              <a href="/actus/actu-4.html" class="news-link">Lire →</a>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER identique -->
+  <footer class="site-footer footer-pro">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a class="brand footer-brand-link" href="/" aria-label="Accueil - Les Léopards Cyclotouristes">
+          <span class="brand-mark" aria-hidden="true">
+            <span class="brand-ring"></span>
+            <span class="brand-monogram">LC</span>
+          </span>
+          <span class="brand-text">
+            <span class="brand-name">Les Léopards Cyclotouristes</span>
+            <span class="brand-tagline">Cyclo & VTT • Convivialité • Toute l’année</span>
+          </span>
+        </a>
+
+        <p class="footer-note">
+          Club cyclo & VTT : sorties régulières, groupes par niveau, et esprit club.
+        </p>
+
+        <div class="footer-chips">
+          <span class="footer-chip">Sorties hebdo</span>
+          <span class="footer-chip">Essai possible</span>
+          <span class="footer-chip">Groupes</span>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <p class="footer-title">Navigation</p>
+        <a class="footer-link" href="/presentation/">Présentation</a>
+        <a class="footer-link" href="/actus/">Actu</a>
+        <a class="footer-link" href="/evenements/">Évènements</a>
+        <a class="footer-link" href="/rejoindre/">Rejoindre</a>
+        <a class="footer-link" href="/contact/">Contact</a>
+      </div>
+
+      <div class="footer-col">
+        <p class="footer-title">Contact</p>
+        <a class="footer-link" href="mailto:contact@exemple.fr">contact@exemple.fr</a>
+        <a class="footer-link" href="tel:+33000000000">0620936673</a>
+        <p class="footer-muted">8 Rue du Stade, 61100 Saint-Georges-des-Groseillers</p>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <p>© <span id="year"></span> Les Léopards Cyclotouristes</p>
+      <div class="footer-bottom-links">
+        <a class="footer-mini" href="/mentions-legales/">Mentions légales</a>
+        <span class="footer-sep">•</span>
+        <a class="footer-mini" href="/politique-confidentialite/">Confidentialité</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+
+    const burger = document.querySelector(".burger");
+    const drawer = document.getElementById("drawer");
+    const closeEls = drawer.querySelectorAll("[data-close]");
+
+    function openMenu(){
+      document.body.classList.add("menu-open");
+      burger.setAttribute("aria-expanded", "true");
+      drawer.setAttribute("aria-hidden", "false");
+    }
+    function closeMenu(){
+      document.body.classList.remove("menu-open");
+      burger.setAttribute("aria-expanded", "false");
+      drawer.setAttribute("aria-hidden", "true");
+    }
+    burger.addEventListener("click", () => {
+      const isOpen = document.body.classList.contains("menu-open");
+      isOpen ? closeMenu() : openMenu();
+    });
+    closeEls.forEach(el => el.addEventListener("click", closeMenu));
+    document.addEventListener("keydown", (e) => { if (e.key === "Escape") closeMenu(); });
+    window.addEventListener("resize", () => { if (window.innerWidth > 980) closeMenu(); });
+  </script>
+</body>
+</html>

@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Reprise des sorties — Les Léopards Cyclotouristes</title>
+  <meta name="description" content="Reprise des sorties cyclo et VTT : organisation, groupes et ambiance." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="/assets/css/styles.css" />
+</head>
+
+<body>
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="/">
+        <span class="brand-mark"><span class="brand-ring"></span><span class="brand-monogram">LC</span></span>
+        <span class="brand-text">
+          <span class="brand-name">Les Léopards Cyclotouristes</span>
+          <span class="brand-tagline">Cyclo & VTT • Toute l’année</span>
+        </span>
+      </a>
+
+      <nav class="nav">
+        <a class="nav-link" href="/">Accueil</a>
+        <a class="nav-link" href="/presentation/">Présentation</a>
+        <a class="nav-link is-active" href="/actus/">Actu</a>
+        <a class="nav-link" href="/evenements/">Évènements</a>
+        <a class="nav-link" href="/contact/">Contact</a>
+        <a class="nav-cta" href="/rejoindre/">Rejoindre</a>
+      </nav>
+
+      <button class="burger"><span></span><span></span><span></span></button>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO ARTICLE -->
+    <section class="article-simple-hero">
+      <div class="container article-simple-wrap">
+        <a class="link-strong" href="/actus/">← Retour aux actus</a>
+
+        <div class="article-simple-meta">
+          <span class="article-tag">Vie du club</span>
+          <time datetime="2026-01-10">10 janvier 2026</time>
+        </div>
+
+        <h1>Reprise des sorties</h1>
+        <p class="article-simple-lead">
+          Les sorties cyclo et VTT reprennent avec un rythme régulier et plusieurs groupes
+          pour rouler ensemble dans de bonnes conditions.
+        </p>
+      </div>
+    </section>
+
+    <!-- CONTENU -->
+    <section class="section">
+      <div class="container article-simple-wrap">
+
+        <!-- image principale -->
+        <figure class="article-figure">
+          <img src="/assets/img/actus/actu-1.jpg" alt="Reprise des sorties" loading="lazy" />
+        </figure>
+
+        <article class="article-simple-content">
+          <p>
+            Après la pause hivernale, le club reprend ses sorties hebdomadaires, en cyclotourisme
+            comme en VTT. L’objectif reste le même : se faire plaisir, progresser et partager.
+          </p>
+
+          <h2>Organisation</h2>
+          <p>
+            Plusieurs groupes sont constitués selon le niveau et l’envie du jour.
+            Les parcours et distances sont adaptés afin que tout le monde profite.
+          </p>
+
+          <ul>
+            <li>Groupes par niveau</li>
+            <li>Parcours variés</li>
+            <li>Allure adaptée</li>
+          </ul>
+
+          <h2>Ambiance</h2>
+          <p>
+            L’entraide, le respect et la bonne humeur font partie de l’ADN des Léopards.
+            Les nouveaux sont les bienvenus : une sortie d’essai est possible.
+          </p>
+        </article>
+
+        <!-- galerie (si plusieurs photos) -->
+        <div class="article-gallery">
+          <figure class="article-figure">
+            <img src="/assets/img/actus/actu-1-2.jpg" alt="Sortie du club" loading="lazy" />
+          </figure>
+          <figure class="article-figure">
+            <img src="/assets/img/actus/actu-1-3.jpg" alt="Groupe en sortie" loading="lazy" />
+          </figure>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer footer-pro">
+    <div class="container footer-bottom">
+      <p>© <span id="year"></span> Les Léopards Cyclotouristes</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
