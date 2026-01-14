@@ -1117,6 +1117,17 @@ body.menu-open .drawer-panel{
 .footer-contact-row:hover{
   border-color: rgba(75,135,216,0.25);
 }
+/* =========================
+   FOOTER – HALO BLEU / VERT
+   ========================= */
+
+.site-footer.footer-pro{
+  background:
+    radial-gradient(900px 260px at 10% 0%, rgba(75,135,216,0.12), transparent 60%),
+    radial-gradient(800px 260px at 90% 100%, rgba(111,209,58,0.10), transparent 55%),
+    #f8fafc;
+}
+
 
 /* ----- FOOTER BOTTOM ----- */
 .footer-bottom{
