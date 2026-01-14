@@ -75,11 +75,7 @@ img{ max-width:100%; display:block; }
   color: var(--text);
 }
 /* Logo FFVélo dans le header */
-.brand-mark--logo{
-  background:transparent;
-  box-shadow: none;
-  padding: 0;
-}
+
 
 .brand-logo{
   height:40px;
