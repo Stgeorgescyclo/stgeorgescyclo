@@ -254,57 +254,60 @@
   </main>
 
   <!-- FOOTER (identique à l'accueil) -->
-  <footer class="site-footer footer-pro">
-    <div class="container footer-grid">
-      <div class="footer-brand">
-        <a class="brand footer-brand-link" href="/" aria-label="Accueil - Les Léopards Cyclotouristes">
-          <span class="brand-mark" aria-hidden="true">
-            <span class="brand-ring"></span>
-            <span class="brand-monogram">LC</span>
-          </span>
-          <span class="brand-text">
-            <span class="brand-name">Les Léopards Cyclotouristes</span>
-            <span class="brand-tagline">Cyclo & VTT • Convivialité • Toute l’année</span>
-          </span>
-        </a>
+<footer class="site-footer footer-pro">
+  <div class="container footer-inner">
 
-        <p class="footer-note">
-          Club cyclo & VTT : sorties régulières, groupes par niveau, et esprit club.
-        </p>
+    <!-- COLONNE GAUCHE : IDENTITÉ + RÉSEAUX -->
+    <div class="footer-left">
+      <div class="brand-inline footer-brand">
+        <img
+          src="/assets/img/ffvelo.png"
+          alt="Affilié FFVélo"
+          class="brand-inline-logo footer-ffvelo"
+        />
 
-        <div class="footer-chips">
-          <span class="footer-chip">Sorties hebdo</span>
-          <span class="footer-chip">Essai possible</span>
-          <span class="footer-chip">Groupes</span>
+        <div class="brand-inline-text">
+          <span class="brand-name">Les Léopards Cyclotouristes</span>
+          <span class="brand-tagline">Cyclotourisme • VTT • Convivialité</span>
         </div>
       </div>
 
-      <div class="footer-col">
-        <p class="footer-title">Navigation</p>
-        <a class="footer-link" href="/presentation/">Présentation</a>
-        <a class="footer-link" href="/actus/">Actu</a>
-        <a class="footer-link" href="/evenements/">Évènements</a>
-        <a class="footer-link" href="/rejoindre/">Rejoindre</a>
-        <a class="footer-link" href="/contact/">Contact</a>
-      </div>
-
-      <div class="footer-col">
-        <p class="footer-title">Contact</p>
-        <a class="footer-link" href="mailto:contact@exemple.fr">contact@exemple.fr</a>
-        <a class="footer-link" href="tel:+33000000000">0620936673</a>
-        <p class="footer-muted">8 Rue du Stade, 61100 Saint-Georges-des-Groseillers</p>
+      <!-- RÉSEAUX -->
+      <div class="footer-social">
+        <a href="#" aria-label="Facebook" target="_blank" rel="noopener">Facebook</a>
+        <a href="#" aria-label="Instagram" target="_blank" rel="noopener">Instagram</a>
       </div>
     </div>
 
-    <div class="container footer-bottom">
-      <p>© <span id="year"></span> Les Léopards Cyclotouristes</p>
-      <div class="footer-bottom-links">
-        <a class="footer-mini" href="/mentions-legales/">Mentions légales</a>
-        <span class="footer-sep">•</span>
-        <a class="footer-mini" href="/politique-confidentialite/">Confidentialité</a>
+    <!-- COLONNE DROITE : CONTACT -->
+    <div class="footer-right">
+      <p class="footer-title">Contact</p>
+
+      <div class="footer-contact">
+        <a href="mailto:contact@exemple.fr" class="footer-contact-row">
+          <span>Email</span>
+          <span>contact@exemple.fr</span>
+        </a>
+
+        <a href="tel:+33000000000" class="footer-contact-row">
+          <span>Téléphone</span>
+          <span>+33 0 00 00 00 00</span>
+        </a>
+
+        <div class="footer-contact-row">
+          <span>Adresse</span>
+          <span>St Georges des Groseillers</span>
+        </div>
       </div>
     </div>
-  </footer>
+
+  </div>
+
+  <div class="container footer-bottom">
+    <p>© <span id="year"></span> Les Léopards Cyclotouristes</p>
+  </div>
+</footer>
+
 
   <script>
     document.getElementById("year").textContent = new Date().getFullYear();
